@@ -101,3 +101,10 @@ def generate_description(image_path):
     return description
 
 
+# Test with one image
+image_path = "/data/rplan/sample_floorplan.png"
+
+description = generate_description(image_path)
+
+print("\nFLOOR PLAN DESCRIPTION:\n")
+print(description)
